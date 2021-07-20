@@ -7,7 +7,6 @@
       <p>Year: ${{ movie.year }}</p>
       <p>Director: ${{ movie.director }}</p>
       <p>Plot: ${{ movie.plot }}</p>
-      <!-- <img v-bind:src="movie.image_url" alt="movie.title" /> -->
     </div>
   </div>
 </template>
@@ -17,7 +16,7 @@ import axios from "axios";
 export default {
   data: function () {
     return {
-      message: "This is movie-vue-app!",
+      message: "Welcome to movie-vue-app!",
       movies: [],
     };
   },
